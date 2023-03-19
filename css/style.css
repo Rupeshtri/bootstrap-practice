@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap");
+body {
+  font-family: "Miriam Libre", sans-serif;
+}
+body .top {
+  background: #F18F01;
+  color: #fff;
+}
+body .bg-body-tertiary {
+  background: #051951 !important;
+}
+body .navbar-expand-lg .navbar-nav .nav-link {
+  color: #fff;
+  padding: 15px 25px;
+}
+body .banner img {
+  height: 80vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .banner .carousel-caption {
+  text-align: left;
+  bottom: 0;
+  max-width: 49%;
+}
+body .banner .carousel-caption h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 110%;
+}
+body .banner .carousel-caption h5 span {
+  color: #F18F01;
+}/*# sourceMappingURL=style.css.map */
