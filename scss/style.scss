@@ -1,2 +1,43 @@
 $o:#F18F01;
 $b:#051951;
+$w: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+
+body{
+    font-family: 'Miriam Libre', sans-serif;
+    .top{
+        background: $o;
+        color: $w;
+    }
+    .bg-body-tertiary{
+        background: $b !important;
+        
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+        color: $w;
+        padding: 15px 25px;
+    }
+    .banner{
+        img{
+            height: 80vh;
+            width: 100%;
+            object-fit: cover;
+        }
+        .carousel-caption{
+            text-align: left;
+            bottom: 0;
+            max-width: 49%;
+            h5{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 67px;
+                line-height: 110%;
+                span{
+                    color: $o;
+                }
+            }
+        }
+        
+    }
+}
